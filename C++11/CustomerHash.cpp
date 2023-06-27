@@ -39,31 +39,32 @@ class Customer
         string fname;
         string lname;
         int no;
-        void setFname(string fname);
-        void setLname(string lname);
-        void setNo(int no);
-        string getFname(void);
-        string getLname(void);
-        int getNo(void);
+        // void setFname(string fname);
+        // void setLname(string lname);
+        // void setNo(int no);
+        // string getFname(void);
+        // string getLname(void);
+        // int getNo(void);
+        void setFname(string fname){
+            this->fname = fname;
+        }
+        void setLname(string lname){
+            this->lname = lname;
+        }
+        void setNo(int no){
+            this->no = no;
+        }
+        string getFname(){
+            return this->fname;
+        }
+        string getLname(){
+            return this->lname;
+        }
+        int getNo(){
+            return this->no;
+        }
 };
-void Customer::setFname(string fname){
-    this->fname = fname;
-}
-void Customer::setLname(string lname){
-    this->lname = lname;
-}
-void Customer::setNo(int no){
-    this->no = no;
-}
-string Customer::getFname(){
-    return this->fname;
-}
-string Customer::getLname(){
-    return this->lname;
-}
-int Customer::getNo(){
-    return this->no;
-}
+
 
 
 
